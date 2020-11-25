@@ -60,3 +60,15 @@ table, th, td {
     border: 1px solid #000000;
     border-collapse: collapse;
 } */
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9cm;
+    min-width: 400px;
+}
+
+.content-table thead tr {
+    background-color:black;
+    color:  black
+}
