@@ -22,28 +22,29 @@
         </nav>
 
     </header>
+
     <div class="search_bar">
         <form action="file.php" method="POST">
             <input type="text" name="search_bar">
             <button type="submit" name="search"><i class="fas fa-search"></i></button>
         </form>
     </div>
-    <div class= "card mb-4">
-        <div class="card-header">
-            <i class="fas fa-table mr-1"></i>
-            DataTable Example
-        </div>
-        <div class="card-body">
-            <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                    <thead>
-                        <tr>
-                            <th>Nama Sungai</th>
-                            <th>Kabupaten/Kota</th>
-                            <th>Water Quality Index (WQI)</th>
-                            <th>Kualitas</th>
-                        </tr>
-                    </thead>
+
+    <div class="content-table">
+        <table>
+            <tr>
+                <th>Nama Sungai</th>
+                <th>Kabupaten/Kota</th>
+                <th>Water Quality Index (WQI)</th>
+                <th>Kualitas</th>
+            </tr>
+            <tr>
+                <th>Sungai KAliurang</th>
+                <th>Sleman</th>
+                <th>43.1</th>
+                <th>Baik</th>
+            </tr>
+        </table>
     </div>
     
 </body>

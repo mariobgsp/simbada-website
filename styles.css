@@ -3,28 +3,29 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 3px;
     padding: 0;
-    background-color: white
+    background-color: white;
 }
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1
+    color: black;
     text-decoration: none;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: right;
     padding: 30px 10%;
 }
 
 .logo {
     cursor: pointer;
+    margin-right: auto;
 }
 
 .nav_links {
@@ -44,3 +45,18 @@ header {
     color: #0088a9;
 }
 
+
+/* table{
+    width: 400px;
+    align: center;
+    margin: 10px auto;
+}
+
+th {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+} */
