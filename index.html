@@ -3,53 +3,264 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Water Quality</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/491e027b8f.js" crossorigin="anonymous"></script>
+    <title>Water Quality Index</title>
 </head>
-<script>
-    
-</script>
 <body>
-    <header>
-
-        <img class="logo" src="logo1.svg" alt="logo" width="10%">
-        <nav>
-            <ul class = "nav_links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-            </ul>
-        </nav>
-
-    </header>
-
-    <div class="search_bar">
-        <form action="file.php" method="POST">
-            <input type="text" name="search_bar">
-            <button type="submit" name="search"><i class="fas fa-search"></i></button>
-        </form>
-    </div>
-
-    <div class="content-table">
-        <table>
-            <thead>
-                <tr>
-                    <th>Nama Sungai</th>
-                    <th>Kabupaten/Kota</th>
-                    <th>Water Quality Index (WQI)</th>
-                    <th>Kualitas</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Sungai Kaliurang</th>
-                    <th>Sleman</th>
-                    <th>43.1</th>
-                    <th>Baik</th>
-                </tr>
-            </tbody>
-        </table>
+    <nav>
+        <div class="logo">
+            Water Quality Data
+        </div>
+        <ul class="nav_links">
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>Sensor</li>
+            <li><a href="#"></a>Parameter</li>
+            <li><a href="#"></a>Tentang Kami</li>
+        </ul>
+    </nav>
+    <div class="searchbox" align="center">
+        <form action="">
+            <input type="search">
+            <i class="fa fa-search"></i>
+          </form>
     </div>
     
+    <div class="wrapper">
+  
+        <div class="table">
+          
+          <div class="row header">
+            <div class="cell">
+              Nama Sungai
+            </div>
+            <div class="cell">
+              Kabupaten/Kota
+            </div>
+            <div class="cell">
+              Water Quality Index (WQI)
+            </div>
+            <div class="cell">
+              Quality
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="cell" data-title="nama_sungai">
+              Sungai Kali Urang
+            </div>
+            <div class="cell" data-title="kotakab">
+              Sleman
+            </div>
+            <div class="cell" data-title="index_quality">
+              43.1
+            </div>
+            <div class="cell" data-title="quality">
+              Baik
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="cell" data-title="nama_sungai">
+              Sungai Code
+            </div>
+            <div class="cell" data-title="kotakab">
+              Yogyakarta
+            </div>
+            <div class="cell" data-title="index_quality">
+              64.1
+            </div>
+            <div class="cell" data-title="quality">
+              Standard
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="cell" data-title="nama_sungai">
+              Sungai Ciliwung
+            </div>
+            <div class="cell" data-title="kotakab">
+              Depok
+            </div>
+            <div class="cell" data-title="index_quality">
+              64.1
+            </div>
+            <div class="cell" data-title="quality">
+              Buruk
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="cell" data-title="nama_sungai">
+              Sungai Citarum
+            </div>
+            <div class="cell" data-title="kotakab">
+              Purwakarta
+            </div>
+            <div class="cell" data-title="index_quality">
+              67.2
+            </div>
+            <div class="cell" data-title="quality">
+              Sangat Buruk
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="table">
+          
+          <div class="row header blue">
+            <div class="cell">
+              Stasiun
+            </div>
+            <div class="cell">
+              pH
+            </div>
+            <div class="cell">
+              B.O.D (mg/l)
+            </div>
+            <div class="cell">
+              PO4 (mg/l)
+            </div>
+            <div class="cell">
+              NO3 (mg/l)
+            </div>
+            <div class="cell">
+              Cl
+            </div>
+            <div class="cell">
+              Conductivity
+            </div>
+            <div class="cell">
+                Turbidity
+            </div>
+            <div class="cell">
+                TDS
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="cell" data-title="Stasiun">
+              1
+            </div>
+            <div class="cell" data-title="ph">
+              7.5
+            </div>
+            <div class="cell" data-title="bod">
+              3.6
+            </div>
+            <div class="cell" data-title="po4">
+              0,13
+            </div>
+            <div class="cell" data-title="no3">
+              4,1
+            </div>
+            <div class="cell" data-title="cl">
+              4,1
+            </div>
+            <div class="cell" data-title="conductivity">
+              4,1
+            </div>
+            <div class="cell" data-title="turbidity">
+              4,1
+            </div>
+            <div class="cell" data-title="tds">
+              4,1
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell" data-title="Stasiun">
+              1
+            </div>
+            <div class="cell" data-title="ph">
+              7.5
+            </div>
+            <div class="cell" data-title="bod">
+              3.6
+            </div>
+            <div class="cell" data-title="po4">
+              0,13
+            </div>
+            <div class="cell" data-title="no3">
+              4,1
+            </div>
+            <div class="cell" data-title="cl">
+              4,1
+            </div>
+            <div class="cell" data-title="conductivity">
+              4,1
+            </div>
+            <div class="cell" data-title="turbidity">
+              4,1
+            </div>
+            <div class="cell" data-title="tds">
+              4,1
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell" data-title="Stasiun">
+              1
+            </div>
+            <div class="cell" data-title="ph">
+              7.5
+            </div>
+            <div class="cell" data-title="bod">
+              3.6
+            </div>
+            <div class="cell" data-title="po4">
+              0,13
+            </div>
+            <div class="cell" data-title="no3">
+              4,1
+            </div>
+            <div class="cell" data-title="cl">
+              4,1
+            </div>
+            <div class="cell" data-title="conductivity">
+              4,1
+            </div>
+            <div class="cell" data-title="turbidity">
+              4,1
+            </div>
+            <div class="cell" data-title="tds">
+              4,1
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell" data-title="Stasiun">
+              1
+            </div>
+            <div class="cell" data-title="ph">
+              7.5
+            </div>
+            <div class="cell" data-title="bod">
+              3.6
+            </div>
+            <div class="cell" data-title="po4">
+              0,13
+            </div>
+            <div class="cell" data-title="no3">
+              4,1
+            </div>
+            <div class="cell" data-title="cl">
+              4,1
+            </div>
+            <div class="cell" data-title="conductivity">
+              4,1
+            </div>
+            <div class="cell" data-title="turbidity">
+              4,1
+            </div>
+            <div class="cell" data-title="tds">
+              4,1
+            </div>
+          </div>
+          
+          
+          
+          
+        </div>
+        
+      </div>
 </body>
 </html>
