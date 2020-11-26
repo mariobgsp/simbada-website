@@ -41,6 +41,29 @@ body {
       list-style: none;
   }
 
+  /*------- CSS Farrel -------*/
+
+  div.main{
+    text-align: center;
+  }
+
+  div.main,h1{
+    color: white;
+  }
+
+  input{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #666;
+    background-color: #f2f2f2;
+  }
+
+  button{
+    border-radius: 10px;
+  }
+
+  /*------- Akhir CSS Farrel -----*/
+
 
 
   @media screen and (max-width: 580px) {
@@ -133,3 +156,5 @@ body {
     border-radius: 40px;
     
 }
+
+
