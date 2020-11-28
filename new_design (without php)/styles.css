@@ -1,0 +1,178 @@
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(22,105,122);
+    align-items: center;
+    min-height: 8vh;
+}
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width:30%;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links li{
+    list-style-type: none;
+}
+
+.content {
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.opening-words {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.search-box {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.nav-links a.active {
+    border-bottom: 3px solid white;
+}
+
+.search-box {
+    width: 593.5px;
+    color: black;
+    border: 15px solid white;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.search-box button{
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 12px;
+    width: 100px;
+    height: 45px;
+    background-color: rgb(22,105,122);
+    border-inline: none;
+    color: white;
+}
+.search-box input{
+    border-inline-color: none ;
+    width: 480px;
+    height: 36px;
+    border-radius: 12px;
+    text-align: left;
+    font-size: 14px;
+
+}
+.footer {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.content-page-3 {
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+}
+
+.blank-1 {
+    display: grid;
+    grid-template-rows: 60px 1fr;
+}
+
+.search-city {
+    padding-top: 2rem;
+    padding-right: 22rem;
+    text-align: right;
+}
+
+.city-table {
+    padding-top: 2rem;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.city-table th {
+    text-align: center;
+}
+
+.city-table td.river_name {
+    text-align: left;
+}
+
+city-table tr.header-table {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.city-table td.city_name {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.city-table td.indicator1 {
+    text-align: center;
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+.city-table td.indicator2 {
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.city-table td.station_no {
+    text-align: center;
+}
+
+.city-table th, td{
+    align-items: center;
+    border: 1px solid black;
+}
