@@ -4,7 +4,6 @@ html, body {
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
 }
 
 nav{
@@ -31,7 +30,7 @@ nav{
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width:30%;
+    width:20%;
 }
 
 .nav-links a{
@@ -49,14 +48,16 @@ nav{
 
 .header {
     position: absolute;
-    top: 15%;
+    text-align: center;
+    font-weight: bolder;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
 .opening-words {
     position: absolute;
-    top: 22%;
+    top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -65,15 +66,15 @@ nav{
 
 .search-box {
     position: absolute;
-    top: 31%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
-
+/*
 .nav-links a.active {
     border-bottom: 3px solid white;
-}
+}*/
 
 .search-box {
     width: 593.5px;
@@ -81,7 +82,7 @@ nav{
     border: 15px solid white;
     background: white;
     border-radius: 18px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
 }
 .search-box button{
     font-weight: bold;
@@ -104,7 +105,7 @@ nav{
 }
 .footer {
     position: absolute;
-    top: 60%;
+    top: 56%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -116,63 +117,43 @@ nav{
     color: white;
 }
 
-.content-page-3 {
-    display: grid;
-    grid-template-columns: 5% 1fr 5%;
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-.blank-1 {
-    display: grid;
-    grid-template-rows: 60px 1fr;
-}
-
-.search-city {
-    padding-top: 2rem;
-    padding-right: 22rem;
-    text-align: right;
-}
-
-.city-table {
-    padding-top: 2rem;
-    border-collapse: separate;
-    border-spacing: 0;
-}
-
-.city-table th {
+.content-table thead tr {
+    background-color: rgb(22,105,122);
+    color: white;
     text-align: center;
+    font-weight: bold;
 }
 
-.city-table td.river_name {
-    text-align: left;
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
 }
 
-city-table tr.header-table {
-    padding-left: 10px;
-    padding-right: 10px;
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
 }
 
-.city-table td.city_name {
-    padding-right: 50px;
-    padding-left: 50px;
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(22,105,122);
 }
 
-.city-table td.indicator1 {
-    text-align: center;
-    padding-right: 55px;
-    padding-left: 55px;
-}
-
-.city-table td.indicator2 {
-    text-align: center;
-    padding-right: 50px;
-    padding-left: 50px;
-}
-
-.city-table td.station_no {
-    text-align: center;
-}
-
-.city-table th, td{
-    align-items: center;
-    border: 1px solid black;
+.city-region {
+    position: absolute;
+    top: 65%;
+    background-color: white;
+    padding: 0 0 28px 28px;
+    border-radius: 18px;
 }
