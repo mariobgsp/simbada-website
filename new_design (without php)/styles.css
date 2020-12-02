@@ -146,6 +146,11 @@ nav{
     font-weight: bold;
 }
 
+.city-nickname {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .content-table th,
 .content-table td {
     padding: 12px 15px;
@@ -163,7 +168,6 @@ nav{
 }
 
 .main-content {
-    font-size: 20px;
     position: absolute;
     top: 65%;
     margin: 3rem;
@@ -173,6 +177,11 @@ nav{
     border: 1px solid grey;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     
+}
+
+.main-content h1 {
+    font-size: 32px;
+    color:rgb(22,105,122);
 }
 
 .stas-name,
