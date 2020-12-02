@@ -16,13 +16,13 @@
             </div>
             <ul class="nav-links">
                 <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">City/Region</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#city-region-name">City/Region</a></li>
             </ul>
         </nav>
     </div>
     <div class="content">
-        <img src="/images/images.jpg" alt="water-image" width="100%">
+        <img class="hero-bg"src="/images/images.jpg" alt="water-image" width="100%"> 
         <div class="header">
             <h1> <span>Find Your City.</span> Find Your Water Quality.</h1>
         </div>
@@ -43,10 +43,10 @@
             <h4>2020. <a href="https:\\ugm.ac.id">Universitas Gadjah Mada.</a> Sistem Basis Data</h4>
         </div>
         <div class="city-region">
-            <h1>City/Region Tables</h1>
+            <h1> <a class="header-city" name="city-region-name">City/Region Tables</a></h1>
             <hr>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam, labore eaque quaerat molestiae enim modi laborum voluptatum vel tempora voluptate possimus qui amet odit repellendus animi velit cumque optio!
-            <div class="its-table">
+            <div class="its-table" align="center">
                 <table class="content-table">
                     <thead>
                         <tr>
@@ -59,33 +59,50 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
-                            <td>Kaliurang</td>
-                            <td>Sleman</td>
-                            <td>43.1</td>
+                            <td class="stas-name">1</td>
+                            <td class="river">Kaliurang</td>
+                            <td class= "city">Sleman</td>
+                            <td class="index-name">43.1</td>
                             <td>Baik</td>
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>Kaliurang</td>
-                            <td>Sleman</td>
-                            <td>43.1</td>
+                            <td class="stas-name">1</td>
+                            <td class="river">Kaliurang</td>
+                            <td class= "city">Sleman</td>
+                            <td class="index-name">43.1</td>
                             <td>Baik</td>
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>Kaliurang</td>
-                            <td>Sleman</td>
-                            <td>43.1</td>
+                            <td class="stas-name">1</td>
+                            <td class="river">Kaliurang</td>
+                            <td class= "city">Sleman</td>
+                            <td class="index-name">43.1</td>
+                            <td>Baik</td>
+                        </tr>
+                        <tr>
+                            <td class="stas-name">1</td>
+                            <td class="river">Kaliurang</td>
+                            <td class= "city">Sleman</td>
+                            <td class="index-name">43.1</td>
                             <td>Baik</td>
                         </tr>
                         
+
                     </tbody>
                 </table>
 
             </div>
+            <h1> <a name="about"></a> About Us</h1>
+            <p>This website were developed by Physics Engineering Student of Universitas Gadjah Mada to help people know about their Water Quality</p>
         </div>
+        
     </div>
-
+    <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+    </script>
 </body>
 </html>
