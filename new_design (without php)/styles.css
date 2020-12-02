@@ -162,7 +162,7 @@ nav{
     border-bottom: 2px solid rgb(22,105,122);
 }
 
-.city-region {
+.main-content {
     font-size: 20px;
     position: absolute;
     top: 65%;
@@ -171,6 +171,7 @@ nav{
     padding: 6px 60px 60px 60px;
     border-radius: 18px;
     border: 1px solid grey;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     
 }
 
@@ -181,16 +182,6 @@ nav{
     text-align: center;
 }
 
-.about-us {
-    position: absolute;
-    top: 115%;
-    font-size: 20px;
-    position: absolute;
-    margin: 3rem;
-    background-color: white;
-    padding: 6px 60px 60px 60px;
-    border-radius: 18px;
-}
 
 /* Popup Text 
 
