@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-page{
+    overflow: hidden;
+}
+
+/* header*/
+
+.header1 {
+    /* darker background */
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header2 {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/3.jpg);
+    height: 90px;
+    /*background-size: cover;
+    background-attachment: fixed; */
+    background-position: center;
+}
+
+/* navbar settings */
+
+.navbar img{
+    height: 60px;
+}
+.navbar .navbar-nav .nav-item .nav-link:link, .navbar .navbar-nav .nav-item .nav-link:visited {
+    color: white;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:active {
+    color: rgb(204, 204, 204);
+    margin-right: 20px;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    transition: border-bottom 0.2s;
+}
+
+.navbar button{
+    color: white;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    color: white;
+    padding-top: 100px;
+    top: 30%;
+    background: none;
+}
+.jumbotron h1 {
+    font-weight: 900;
+}
+
+.jumbotron h1, p{
+    text-align: center;
+
+}
+/* footer */
+.footer {
+    padding: 260px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    border-bottom: 1px solid white;
+}
+
+
+/* search-bar */
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 450px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+ .search_input{
+    color: gray;
+    padding-left: 15px;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 350px;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+/*.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+    background: white;
+    color: rgb(22,105,122);
+} */
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:rgb(22,105,122);
+    text-decoration:none;
+}
+
+/* Table */
+.table {
+    min-width: 400px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+}
