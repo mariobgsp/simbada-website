@@ -12,26 +12,30 @@ body{
 
 .header1 {
     /* darker background */
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/3.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/3.jpg);
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
 
+.header1 img {
+    height: 60px;
+}
+
 .header2 {
+    /* darker background */
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/3.jpg);
     height: 90px;
-    /*background-size: cover;
-    background-attachment: fixed; */
+    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
 }
 
-/* navbar settings */
-
-.navbar img{
+.header2 img {
     height: 60px;
 }
+
 .navbar .navbar-nav .nav-item .nav-link:link, .navbar .navbar-nav .nav-item .nav-link:visited {
     color: white;
     margin-right: 20px;
@@ -79,59 +83,37 @@ body{
     border-bottom: 1px solid white;
 }
 
-
-/* search-bar */
-
-.searchbar{
-    margin-bottom: auto;
-    margin-top: auto;
-    width: 450px;
-    height: 60px;
-    background-color: white;
-    border-radius: 30px;
-    padding: 10px;
-}
-
- .search_input{
-    color: gray;
-    padding-left: 15px;
-    border: 0;
-    outline: 0;
-    background: none;
-    width: 350px;
-    caret-color:transparent;
-    line-height: 40px;
-    transition: width 0.4s linear;
-}
-
-/*.searchbar:hover > .search_input{
-    padding: 0 10px;
-    width: 450px;
-    caret-color:red;
-    transition: width 0.4s linear;
-}
-
-.searchbar:hover > .search_icon{
-    background: white;
-    color: rgb(22,105,122);
-} */
-
-.search_icon{
-    height: 40px;
-    width: 40px;
-    float: right;
-    display: flex;
-    justify-content: center;
+/* button */
+.container-search button{
     align-items: center;
-    border-radius: 50%;
-    color:rgb(22,105,122);
-    text-decoration:none;
+}
+
+/* content */
+
+.content {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
 }
 
 /* Table */
 .table {
-    min-width: 400px;
+    min-width: 300px;
     background-color: white;
-    margin: 10px;
-    border-radius: 50px;
+    border-radius: 5px ;
+}
+
+.stasion_name,
+.water_index,
+.thead-dark {
+    text-align: center;
+}
+
+/* Pages-2 City/Region */
+.intro h2 {
+    font-weight: bold;
+}
+
+.intro p {
+    align-items: left;
 }
