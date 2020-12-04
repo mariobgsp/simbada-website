@@ -18,13 +18,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="./index.php">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/city-region.html">City/Region</a>
+                  <a class="nav-link" href="./pages/city-region.php">City/Region</a>
                 </li>
               </ul>
             </div>
@@ -42,12 +42,7 @@
                 <p> <a href="https://tf.ugm.ac.id/">Teknik Nuklir dan Teknik Fisika.</a> <a href="https://ugm.ac.id/">Universitas Gadjah Mada.</a>  Sistem Basis Data </p>
             </div>
         </div>
-        
-        
     </header>
-    <main>
-  
-    </main>
 </body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
