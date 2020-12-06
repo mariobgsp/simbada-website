@@ -28,7 +28,7 @@
                 </li>
               </ul>
             </div>
-        </nav
+        </nav>
     </header>
     <div class="content">
         <div class="intro">
