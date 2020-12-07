@@ -1,3 +1,3 @@
-# Simbada-website
+# simbada-website
 
-Website for College-project, Database System Subject. It containing a Water Quality Data (WQI) for several river in Indonesia
+Repository for college-project, Database System Subject. It containing a Website that display Water Quality Index (WQI) for several river in Indonesia.
