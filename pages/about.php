@@ -29,7 +29,7 @@
               </ul>
             </div>
         </nav>
-        <div class="container">
+        <div class="container-2">
           <div class="content-2">
             <h1 class="display-5">About Us</h1>
             <hr>

@@ -125,7 +125,7 @@ body{
 
 /* About Pages */
 
-.container {
+.container-2 {
     top: 5%;
     position: relative;
     padding: 20px 50px 20px 50px;
@@ -133,7 +133,7 @@ body{
     border-radius: 30px;
 }
 
-.container h1{
+.container-2 h1{
     font-weight: bold;
 }
 

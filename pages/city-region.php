@@ -33,7 +33,7 @@ include "../includes/function.php";
             </div>    
             </div>
         </nav>
-        <div class="container">
+        <div class="container-2">
             <h1>City Region</h1>
             <hr>
             <p class="content-text-2">
