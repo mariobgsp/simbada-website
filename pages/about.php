@@ -21,10 +21,10 @@
                   <a class="nav-link" href="../index.php">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/about.php">About</a>
+                  <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/city-region.php">City/Region</a>
+                  <a class="nav-link" href="../pages/city-region.php">City/Region</a>
                 </li>
               </ul>
             </div>
