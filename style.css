@@ -118,3 +118,21 @@ body{
 .intro p {
     align-items: left;
 }
+
+/* About Pages */
+
+.container {
+    top: 5%;
+    position: relative;
+    padding: 20px 50px 20px 50px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.container h1{
+    font-weight: bold;
+}
+
+.content-text-2 {
+    text-align: left;
+}
