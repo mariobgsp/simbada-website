@@ -119,6 +119,10 @@ body{
     align-items: left;
 }
 
+.city-page {
+    overflow: auto;
+}
+
 /* About Pages */
 
 .container {
@@ -126,7 +130,7 @@ body{
     position: relative;
     padding: 20px 50px 20px 50px;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 30px;
 }
 
 .container h1{

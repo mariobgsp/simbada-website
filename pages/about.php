@@ -32,7 +32,7 @@
         <div class="container">
           <div class="content-2">
             <h1 class="display-5">About Us</h1>
-            <hr class="my-3">
+            <hr>
             <p class="content-text-2">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius possimus est vel voluptatibus natus rem consectetur asperiores ex non temporibus deleniti quibusdam, cumque obcaecati quia ut assumenda impedit tenetur ipsa corrupti maiores! Recusandae placeat aut quis eos quia aspernatur totam eius optio consequuntur, numquam quibusdam quidem, repellendus commodi rem assumenda, enim odit alias maiores quos voluptatibus doloribus quas in sint minima! Necessitatibus quaerat minus vero sunt earum voluptates illo ducimus, quis eum id quia et aspernatur sequi quam modi voluptatum.
             </p>
