@@ -99,7 +99,7 @@ body{
 
 /* Table */
 .table {
-    min-width: 300px;
+    min-width: 400px;
     background-color: white;
     border-radius: 5px ;
 }
@@ -126,6 +126,8 @@ body{
 /* About Pages */
 
 .container-2 {
+    margin-left: 10rem;
+    margin-right: 10rem;
     top: 5%;
     position: relative;
     padding: 20px 50px 20px 50px;
