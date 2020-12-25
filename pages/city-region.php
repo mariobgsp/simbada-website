@@ -21,20 +21,20 @@ include "../includes/function.php";
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="../index.php">Home<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="../index.php">Rumah<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/about.php">About</a>
+                  <a class="nav-link" href="../pages/about.php">Tentang</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../city-region.php">City/Region</a>
+                  <a class="nav-link" href="../city-region.php">Kabupaten/Kota</a>
                 </li>
               </ul>
             </div>    
             </div>
         </nav>
         <div class="container-2">
-            <h1>City Region</h1>
+            <h1>Kualitas Air Kabupaten/Kota</h1>
             <hr>
             <p class="content-text-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur atque quasi alias libero delectus.

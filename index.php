@@ -18,20 +18,20 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="./index.php">Home<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="./index.php">Rumah<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="../pages/about.php">Tentang</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/city-region.php">City/Region</a>
+                  <a class="nav-link" href="./pages/city-region.php">Kabupaten/Kota</a>
                 </li>
               </ul>
             </div>
         </nav>
           <div class="jumbotron jumbotron-fluid ">
             <div class="container">
-              <h1 class="display-4">Find Your City. Find Your Quality</h1>
+              <h1 class="display-4">Temukan Kualitas Air di Kotamu!</h1>
               <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, accusantium quod dolores nobis tempora ab consequuntur maxime quidem impedit repudiandae.
               </p>
               <p class="lead">
@@ -39,7 +39,7 @@
               </p>
             </div>
             <div class="footer">
-                <p> <a href="https://tf.ugm.ac.id/">Teknik Nuklir dan Teknik Fisika.</a> <a href="https://ugm.ac.id/">Universitas Gadjah Mada.</a>  Sistem Basis Data </p>
+                <p> <a href="https://tf.ugm.ac.id/">Departemen Teknik Nuklir dan Teknik Fisika.</a> <a href="https://ugm.ac.id/">Universitas Gadjah Mada.</a>  Sistem Basis Data </p>
             </div>
         </div>
     </header>
