@@ -32,10 +32,11 @@
           <div class="jumbotron jumbotron-fluid ">
             <div class="container">
               <h1 class="display-4">Temukan Kualitas Air di Kotamu!</h1>
-              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, accusantium quod dolores nobis tempora ab consequuntur maxime quidem impedit repudiandae.
+              <p class="lead">
+                Sebuah website yang menyajikan Data Kualitas Air pada suatu Sumber Air di Indonesia. Dengan Klik memulai akan dialihkan ke pencarian Kualitas Air! 
               </p>
               <p class="lead">
-                <a class="btn btn-primary btn-lg" href="../pages/city-region.php" role="button"> Get Started <i class="fa fa-search" aria-hidden="true"></i> </a>
+                <a class="btn btn-primary btn-lg" href="../pages/city-region.php" role="button"> Memulai <i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
               </p>
             </div>
             <div class="footer">
