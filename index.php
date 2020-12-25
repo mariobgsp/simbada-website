@@ -18,13 +18,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="./index.php">Rumah<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="../index.php">Rumah<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../pages/about.php">Tentang</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/city-region.php">Kabupaten/Kota</a>
+                  <a class="nav-link" href="../pages/city-region.php">Kabupaten/Kota</a>
                 </li>
               </ul>
             </div>
@@ -35,7 +35,7 @@
               <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, accusantium quod dolores nobis tempora ab consequuntur maxime quidem impedit repudiandae.
               </p>
               <p class="lead">
-                <a class="btn btn-primary btn-lg" href="./pages/city-region.php" role="button"> Get Started <i class="fa fa-search" aria-hidden="true"></i> </a>
+                <a class="btn btn-primary btn-lg" href="../pages/city-region.php" role="button"> Get Started <i class="fa fa-search" aria-hidden="true"></i> </a>
               </p>
             </div>
             <div class="footer">
