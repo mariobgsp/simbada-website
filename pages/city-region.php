@@ -49,6 +49,8 @@ include "../includes/function.php";
                                 <th>City/Region</th>
                                 <th>WQI</th>
                                 <th>Quality</th>
+                                <th>Time</th>
+                                <th>Temp(°C)</th>
                             </tr>
                         </thead>
                         <tbody>

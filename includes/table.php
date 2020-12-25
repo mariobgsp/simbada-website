@@ -12,6 +12,7 @@ if($rowCount > 0){
         $ind_hard = $row['ind_tot_hardness'];
         $ind_cond = $row['ind_conductivity'];
         $ind_alk = $row['ind_alkalinity'];
+        
 
         $ind = array($ind_ph,
             $ind_do,
