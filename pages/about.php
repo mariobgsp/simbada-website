@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
     <title>About Us</title>
 </head>
+
 <body class="first-page">
     <header class="header1">
         <nav class="navbar navbar-expand-lg navbar-light ">
@@ -31,13 +32,16 @@
         </nav>
         <div class="container-2">
           <div class="content-2">
-            <h1 class="display-5">About Us</h1>
+            <h1 class="display-5">Tentang Kami</h1>
             <hr>
             <p class="content-text-2">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius possimus est vel voluptatibus natus rem consectetur asperiores ex non temporibus deleniti quibusdam, cumque obcaecati quia ut assumenda impedit tenetur ipsa corrupti maiores! Recusandae placeat aut quis eos quia aspernatur totam eius optio consequuntur, numquam quibusdam quidem, repellendus commodi rem assumenda, enim odit alias maiores quos voluptatibus doloribus quas in sint minima! Necessitatibus quaerat minus vero sunt earum voluptates illo ducimus, quis eum id quia et aspernatur sequi quam modi voluptatum.
+              Website ini menyediakan data terkait kualitas air pada beberapa sumber air di Indonesia. 
+              Kualitas Air tersebut dikalkulasikan berdasarkan indikator yaitu pH, D.O., B.O.D., TDS, Turbiditas, kandungan zat pencemar (PO4, NO3, dan Cl),
+              <i>total hardness</i>, alkalinitas dengan metode perhitungan parameter yang dikembangkan oleh Caude (2001). Hasil Kalkulasi akan ditampilkan bersamaan dengan nama sumber air, jenis sumber air, indeks kualitas air dan kualitas air tersebut yang ditampilkan dalam kategori,
+              Sangat Baik, Baik, Buruk, Sangat Buruk, dan Tidak aman untuk diminum.
             </p>
             <p class="content-text-2">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam maxime, quas ad officiis at, obcaecati distinctio perspiciatis odio nostrum totam sint sequi reiciendis error quasi hic! Sequi exercitationem autem, qui quis aut nemo voluptatibus quos maiores. Illo iure, nihil optio eum inventore nisi reprehenderit, temporibus consequatur tenetur accusamus qui facilis.
+            Pembuatan website ini dilakukan oleh mahasiswa Teknik Fisika Angkatan 2017 dalam pemenuhan Tugas Ujian Akhir Semester Mata Kuliah Sistem Basis Data 2020. 
             </p>
             <p class="footer-about">
               Departemen Teknik Nuklir dan Teknik Fisika. Fakultas Teknik
