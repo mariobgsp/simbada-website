@@ -37,7 +37,8 @@ include "../includes/function.php";
             <h1>Kualitas Air Kabupaten/Kota</h1>
             <hr>
             <p class="content-text-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur atque quasi alias libero delectus.
+              Pada laman ini anda akan disediakan tabel kualitas air dengan keterangan nomor stasiun, nama sungai,
+              Kabupaten/Kota, Water Quality Index (WQI), Kualitas, Waktu, Suhu.
             </p>
             <div class="table">
                 <div class="container mb-3 mt-3 ">
@@ -45,12 +46,12 @@ include "../includes/function.php";
                         <thead>
                             <tr class="thead-dark">
                                 <th>Station No.</th>
-                                <th>River Name</th>
-                                <th>City/Region</th>
+                                <th>Nama Sungai/th>
+                                <th>Kabupaten/Kota</th>
                                 <th>WQI</th>
-                                <th>Quality</th>
-                                <th>Time</th>
-                                <th>Temp(°C)</th>
+                                <th>Kualitas</th>
+                                <th>Waktu</th>
+                                <th>Suhu(°C)</th>
                             </tr>
                         </thead>
                         <tbody>
