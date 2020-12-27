@@ -21,19 +21,19 @@ function calcWqi($wi,$qi){
 function qualityDeterminer($wqi){
     switch($wqi){
         case ($wqi<25):
-            $quality='Excellent';
+            $quality='Sangat Baik';
             break;
         case ($wqi<50):
-            $quality='Good';
+            $quality='Baik';
             break;
         case ($wqi<75):
-            $quality='Poor';
+            $quality='Buruk';
             break;
         case ($wqi<100):
-            $quality='Very Poor';
+            $quality='Sangat Buruk';
             break;
         default:
-            $quality='Unsafe for drink';
+            $quality='Tidak Aman untuk Diminum';
             break;
     };
     return $quality;

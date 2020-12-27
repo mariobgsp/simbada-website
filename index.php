@@ -21,7 +21,7 @@
                   <a class="nav-link" href="index.php">Rumah<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/about.php">Tentang</a>
+                  <a class="nav-link" href="./pages/about.php">Tentang</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="pages/city-region.php">Kabupaten/Kota</a>
@@ -33,7 +33,7 @@
             <div class="container">
               <h1 class="display-4">Temukan Kualitas Air di Kotamu!</h1>
               <p class="lead">
-                Sebuah website yang menyajikan Data Kualitas Air pada suatu Sumber Air di Indonesia. Dengan Klik memulai akan dialihkan ke pencarian Kualitas Air! 
+                Sebuah website yang menyajikan Data Kualitas Air pada suatu Sumber Air di Indonesia. Dengan Klik memulai anda dapat melakukan pencarian Kualitas Air! 
               </p>
               <p class="lead">
                 <a class="btn btn-primary btn-lg" href="pages/city-region.php" role="button"> Memulai <i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
