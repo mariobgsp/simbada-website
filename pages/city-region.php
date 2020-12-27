@@ -16,7 +16,7 @@ include "../includes/function.php";
 <body class="city-page">
     <header class="header1">
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="index.html"><img src="../images/logo.png" alt="logo"></a>
+            <a class="navbar-brand" href="../index.php"><img src="../images/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,7 +40,7 @@ include "../includes/function.php";
             <hr>
             <p class="content-text-2">
               Pada laman ini anda akan disediakan tabel kualitas air dengan keterangan nomor stasiun, nama sungai,
-              Kabupaten/Kota, <i>Water Quality Index (WQI)</i>, Kualitas, Waktu Pengukuran, dan Suhu Pengukuran.
+              Kabupaten/Kota, <i>Water Quality Index</i> (WQI), dan Kualitas.
             </p>
             <div class="table">
                 <div class="container mb-3 mt-3 ">
@@ -48,7 +48,7 @@ include "../includes/function.php";
                         <thead>
                             <tr class="thead-dark">
                                 <th>Station No.</th>
-                                <th>Nama Sungai/th>
+                                <th>Nama Sungai</th>
                                 <th>Kabupaten/Kota</th>
                                 <th>WQI</th>
                                 <th>Kualitas</th>

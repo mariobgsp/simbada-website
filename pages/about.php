@@ -46,7 +46,7 @@
             Pembuatan website ini dilakukan oleh mahasiswa Teknik Fisika Angkatan 2017 dalam pemenuhan Tugas Ujian Akhir Semester Mata Kuliah Sistem Basis Data 2020. 
             </p>
             <p class="footer-about">
-              Departemen Teknik Nuklir dan Teknik Fisika. Fakultas Teknik
+              Departemen Teknik Nuklir dan Teknik Fisika. Fakultas Teknik.
               Universitas Gadjah Mada 2020
             </p>
             <p>
