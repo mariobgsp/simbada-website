@@ -81,5 +81,3 @@ if($rowCount_ind > 0){
     echo "No result found";
 };
 ?>
-
-
