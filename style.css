@@ -2,6 +2,11 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .first-page{
@@ -114,7 +119,6 @@ body{
 }
 
 .stasion_name,
-.water_index,
 .thead-dark {
     text-align: center;
 }
@@ -152,23 +156,12 @@ body{
     text-align: left;
 }
 
-
-
-@media only screen and (max-width: 1490px) {
-    .container-2 .img-about {
-        display: none;
-    } 
-    .break-1 {
-        display: none;
-    }
-  }
-
   /* Pop-Up */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 150px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -176,6 +169,8 @@ body{
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
   }
   
   /* Modal Content */
@@ -189,6 +184,8 @@ body{
     padding-bottom: 8px;
     border: 1px solid #888;
     width: 50%;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
   }
   
   /* The Close Button */
@@ -221,7 +218,7 @@ body{
       min-width: 400px;
   }
   
-  .table td, th{
+  .table th{
       text-align:center;
       padding-left: 20px;
       padding-right: 20px;
@@ -233,7 +230,35 @@ body{
   
   .header-frame {
       background: #222831;
-.container-2 .img-about {
-    width: 1100px;
-    height: 110px;
+  }
+}
+/* IMAGE ABOUT */
+
+@media only screen and (max-width: 1490px) {
+    .content-2 .img-about {
+        display: none;
+    } 
+    .break-1 {
+        display: none;
+    }
+}
+  
+.content-2 .img-about {
+    height: 98px;
 } 
+
+/*popup-button*/
+.popup-button{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.popup-button:hover{
+    text-decoration:none;
+}
+
+/* Indikator */
+.indikator {
+    text-align: center;
+}

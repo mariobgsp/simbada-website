@@ -35,7 +35,7 @@ if($rowCount > 0){
                 <td class="stasion_name">'.$row['id'].'</td>
                 <td class="river_name"><a onClick="showIndikator('.$row['id'].')">'.$row['nama'].'</a></td>
                 <td class="location">'.$row['lokasi'].'</td>
-                <td class="water_index">'.$wqiString.'</td>
+                <td class="water_index"><a class="popup-button" onClick="tombol('.$row['id'].')"><i class="fa fa-info-circle" aria-hidden="true"></i></a> '.$wqiString.'</td>
                 <td class="quality_index">'.$quality.'</td>
             </tr>';
     };
