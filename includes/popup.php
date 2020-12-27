@@ -20,12 +20,12 @@
 	  <th>PO4 (mg/l)</th>
   </tr>
   <tr>
-	  <td>$nilai</td>
-	  <td>$nilai</td>
-	  <td>$nilai</td>
-	  <td>$nilai</td>
-	  <td>$nilai</td>
-	  <td>$nilai</td>
+	  <td class="indikator">$nilai</td>
+	  <td class="indikator">$nilai</td>
+	  <td class="indikator">$nilai</td>
+	  <td class="indikator">$nilai</td>
+	  <td class="indikator">$nilai</td>
+	  <td class="indikator">$nilai</td>
   </tr>
   <tr>
 	  <th>NO4 (mg/l)</th>
@@ -36,12 +36,12 @@
 	  <th>WQI</th>
   </tr>
   <tr>
-	  <td>$nilai</td>
-	  <td>$nilai</td>
-	  <td>$nilai</td>
-	  <td>$nilai</td>
-	  <td>$nilai</td>
-	  <td>$nilai</td>
+	  <td class="indikator">$nilai</td>
+	  <td class="indikator">$nilai</td>
+	  <td class="indikator">$nilai</td>
+	  <td class="indikator">$nilai</td>
+	  <td class="indikator">$nilai</td>
+	  <td class="indikator">$nilai</td>
   </tr>
   </tbody>      	
 
