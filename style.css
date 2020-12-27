@@ -5,7 +5,7 @@ body{
 }
 
 .first-page{
-    overflow: hidden;
+    overflow: auto;
 }
 
 /* header*/
@@ -151,3 +151,17 @@ body{
 .content-text-2 {
     text-align: left;
 }
+
+.container-2 .img-about {
+    width: 1100px;
+    height: 110px;
+} 
+
+@media only screen and (max-width: 1490px) {
+    .container-2 .img-about {
+        display: none;
+    } 
+    .break-1 {
+        display: none;
+    }
+  }

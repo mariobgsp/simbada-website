@@ -33,7 +33,9 @@
         <div class="container-2">
           <div class="content-2">
             <h1 class="display-5">Tentang Kami</h1>
-            <hr>
+            <hr class="break">
+            <img class="img-about" src="../images/tentang-logo.jpg" alt="tntf-with-logo">
+            <hr class="break-1">
             <p class="content-text-2">
               Website ini menyediakan data terkait kualitas air pada beberapa sumber air di Indonesia. 
               Kualitas Air tersebut dikalkulasikan berdasarkan indikator yaitu pH, D.O., B.O.D., TDS, Turbiditas, kandungan zat pencemar (PO4, NO3, dan Cl),
