@@ -11,6 +11,8 @@ include "../includes/variable.php";
 include "../includes/function.php";
 ?>
 
+
+
 <body class="city-page">
     <header class="header1">
         <nav class="navbar navbar-expand-lg navbar-light ">
@@ -62,10 +64,12 @@ include "../includes/function.php";
             </div>
         </div>
     </header>
+   
+
 </body>
 
 <?php 
-include "../includes/popup.php";
+    include "../includes/popup.php";
 ?>
 
 <script src="../script.js"></script>
