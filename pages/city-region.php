@@ -50,8 +50,6 @@ include "../includes/function.php";
                                 <th>Kabupaten/Kota</th>
                                 <th>WQI</th>
                                 <th>Kualitas</th>
-                                <th>Waktu</th>
-                                <th>Suhu(°C)</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -67,5 +65,12 @@ include "../includes/function.php";
 </body>
 
 <?php 
+include "../includes/popup.php";
+?>
+
+<script src="../script.js"></script>
+
+<?php 
 require_once "../includes/footer.php";
 ?>
+
