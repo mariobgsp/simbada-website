@@ -5,7 +5,7 @@ body{
 }
 
 .first-page{
-    overflow: auto;
+    overflow: hidden;
 }
 
 /* header*/
@@ -59,7 +59,7 @@ body{
 .jumbotron {
     color: white;
     padding-top: 100px;
-    top: 30%;
+    top: 40%;
     background: none;
 }
 .jumbotron h1 {
