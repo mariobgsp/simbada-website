@@ -18,13 +18,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="../index.php">Rumah<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.php">Rumah<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/about.php">Tentang</a>
+                  <a class="nav-link" href="pages/about.php">Tentang</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/city-region.php">Kabupaten/Kota</a>
+                  <a class="nav-link" href="pages/city-region.php">Kabupaten/Kota</a>
                 </li>
               </ul>
             </div>
@@ -36,7 +36,7 @@
                 Sebuah website yang menyajikan Data Kualitas Air pada suatu Sumber Air di Indonesia. Dengan Klik memulai akan dialihkan ke pencarian Kualitas Air! 
               </p>
               <p class="lead">
-                <a class="btn btn-primary btn-lg" href="../pages/city-region.php" role="button"> Memulai <i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
+                <a class="btn btn-primary btn-lg" href="pages/city-region.php" role="button"> Memulai <i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
               </p>
             </div>
             <div class="footer">

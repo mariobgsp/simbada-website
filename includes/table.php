@@ -33,7 +33,7 @@ if($rowCount > 0){
     
         echo '<tr>
                 <td class="stasion_name">'.$row['id'].'</td>
-                <td class="river_name">'.$row['nama'].'</td>
+                <td class="river_name"><a onClick="tombol('.$row['id'].')">'.$row['nama'].'</a></td>
                 <td class="location">'.$row['lokasi'].'</td>
                 <td class="water_index">'.$wqiString.'</td>
                 <td class="quality_index">'.$quality.'</td>

@@ -49,8 +49,6 @@ include "../includes/function.php";
                                 <th>City/Region</th>
                                 <th>WQI</th>
                                 <th>Quality</th>
-                                <th>Time</th>
-                                <th>Temp(°C)</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -66,5 +64,12 @@ include "../includes/function.php";
 </body>
 
 <?php 
+include "../includes/popup.php";
+?>
+
+<script src="../script.js"></script>
+
+<?php 
 require_once "../includes/footer.php";
 ?>
+
