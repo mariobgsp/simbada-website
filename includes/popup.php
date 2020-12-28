@@ -34,7 +34,7 @@ if($rowCount_ind > 0){
 		<!-- Modal content -->
 		<div class="modal-content">
 			<div class="header-frame">
-				<span class="close" onClick="close()">&times;</span>
+				<span class="close" onClick="closePopup()">&times;</span>
 			  <h4 class="header4">Indikator '.$row_ind['nama'].'</h4>	
 			</div>
 		  <div class="content-frame">
