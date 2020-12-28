@@ -12,7 +12,7 @@
 <body class="first-page">
     <header class="header1">
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="index.html"><img src="../images/logo.png" alt="logo"></a>
+            <a class="navbar-brand" href="../index.php"><img src="../images/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -22,7 +22,7 @@
                   <a class="nav-link" href="../index.php">Rumah<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.php">Tentang</a>
+                  <a class="nav-link" href="about.php">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../pages/city-region.php">Kabupaten/Kota</a>

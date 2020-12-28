@@ -35,7 +35,7 @@ if($rowCount_ind > 0){
 		<div class="modal-content">
 			<div class="header-frame">
 				<span class="close" onClick="closePopup()">&times;</span>
-			  <h4 class="header4">Indikator '.$row_ind['nama'].'</h4>	
+			  <h4 class="header4">Indikator Kualitas Air '.$row_ind['nama'].'</h4>	
 			</div>
 		  <div class="content-frame">
 			  <table class="table table-bordered">
@@ -49,12 +49,12 @@ if($rowCount_ind > 0){
 						  <th>PO4 (mg/l)</th>
 					  </tr>
 					  <tr>
-						  <td>'.$row_ind['ind_pH'].'</td>
-						  <td>'.$row_ind['ind_DO'].'</td>
-						  <td>'.$row_ind['ind_BOD'].'</td>
-						  <td>'.$row_ind['ind_TDS'].'</td>
-						  <td>'.$row_ind['ind_turbidity'].'</td>
-						  <td>'.$row_ind['ind_PO4'].'</td>
+						  <td class="indikator">'.$row_ind['ind_pH'].'</td>
+						  <td class="indikator">'.$row_ind['ind_DO'].'</td>
+						  <td class="indikator">'.$row_ind['ind_BOD'].'</td>
+						  <td class="indikator">'.$row_ind['ind_TDS'].'</td>
+						  <td class="indikator">'.$row_ind['ind_turbidity'].'</td>
+						  <td class="indikator">'.$row_ind['ind_PO4'].'</td>
 					  </tr>
 						  <th>NO3 (mg/l)</th>
 						  <th>Total Hardness</th>
@@ -64,12 +64,12 @@ if($rowCount_ind > 0){
 						  <th>WQI</th>
 					  </tr>
 					  <tr>
-						  <td>'.$row_ind['ind_NO3'].'</td>
-						  <td>'.$row_ind['ind_tot_hardness'].'</td>
-						  <td>'.$row_ind['ind_conductivity'].'</td>
-						  <td>'.$row_ind['ind_CI'].'</td>
-						  <td>'.$row_ind['ind_alkalinity'].'</td>
-						  <td>'.$wqiString.'</td>
+						  <td class="indikator">'.$row_ind['ind_NO3'].'</td>
+						  <td class="indikator">'.$row_ind['ind_tot_hardness'].'</td>
+						  <td class="indikator">'.$row_ind['ind_conductivity'].'</td>
+						  <td class="indikator">'.$row_ind['ind_CI'].'</td>
+						  <td class="indikator">'.$row_ind['ind_alkalinity'].'</td>
+						  <td class="indikator">'.$wqiString.'</td>
 					  </tr>
 				  </tbody>    		      	
 			  </table>

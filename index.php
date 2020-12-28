@@ -21,7 +21,7 @@
                   <a class="nav-link" href="index.php">Rumah<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/about.php">Tentang</a>
+                  <a class="nav-link" href="./pages/about.php">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="pages/city-region.php">Kabupaten/Kota</a>
